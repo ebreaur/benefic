@@ -1,5 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<ActionBar [title]="title"></ActionBar>
-<StackLayout  class="p-20">
-    <Label text="Welcome to {{ title }}!" class="h1 text-center" textWrap="true"></Label>
-</StackLayout>
+<!-- <ActionBar [title]="title"></ActionBar> -->
+<GridLayout columns="*, *, *, *, *, *" rows="*, *, *">
+    <!-- <Label text="Tap the button" class="h1 text-center"></Label> -->
+    <!-- <Label text="{{ message }}" class="h2 text-center"></Label> -->
+    <Button text="CLATIRE" row="0" col="0" colSpan="3" (tap)="onTap()" class="btn btn-primary btn-active main-button wash-button"></Button>
+    <Button text="ASPIRARE" row="0" col="3" colSpan="3" (tap)="onTap()" class="btn btn-primary btn-active main-button suck-button"></Button>
+    <Button text="DOARE PUTIN"  row="1" col="0" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button hurts-little-button"></Button>
+    <Button text="DOARE TARE" row="1" col="2" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button hurts-bad-button"></Button>
+    <Button text="DURERE INSUPORTABILA" row="1" col="4" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button  hurts-unbearable-button"></Button>
+    <Button text="SENZATIE DE RAU" row="2" col="0" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button fell-sick-button"></Button>
+    <Button text="PAUZA" row="2" col="2" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button pause-button"></Button>
+    <Button text="STOP" row="2" col="4" colSpan="2" (tap)="onTap()" class="btn btn-primary btn-active main-button stop-button"></Button>
+</GridLayout>

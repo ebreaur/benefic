@@ -1,0 +1,38 @@
+.main-button {
+    border-radius: 30em;
+    font-size: 70em;
+    color: black;
+    margin: 25em 25em;
+}
+
+.wash-button {
+    background-color: slateblue;
+}
+
+.suck-button {
+    background-color: olivedrab;
+}
+
+.hurts-little-button {
+    background-color: orange;
+}
+
+.hurts-bad-button {
+    background-color: orangered;
+}
+
+.hurts-unbearable-button {
+    background-color: darkred;
+}
+
+.fell-sick-button {
+    background-color: lightblue;
+}
+
+.stop-button {
+    background-color: red;
+}
+
+.pause-button {
+    background-color: yellow;
+}
